@@ -6,7 +6,7 @@ site = 'http://towerofawesome.org/railcraftpack'
 #  --------------------------------------------------------------------------------------------- #
 if "CHANGEME" in [client_token, client_id]:
     print("please Retrieve the client id and token and paste it Above : "
-          "http://towerofawesome.org/railcraftpack/api/new_client.php")
+          "http://towerofawesome.org/railcraftpack/api/new_client")
     input()
 with open('pack.version', 'r') as v:
     version = v.readlines()
